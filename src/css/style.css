@@ -24,6 +24,32 @@ nav > ul {
     width: 100%;
 }
 
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+nav ul li:hover::after {
+    background-color: #a50034;
+    width: 100%;
+    left: 0;
+}
+
+
 main > section {
     background-image: url(../img/anuncio-principal.svg);
     background-size: cover;
