@@ -12,7 +12,6 @@ header > nav {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
-    border: 1px solid #000;
     padding: 10px 100px;
 }
 
@@ -50,8 +49,7 @@ nav ul li:hover::after {
     left: 0;
 }
 
-
-main > section {
+main > .banner-principal {
     background-image: url(../img/anuncio-principal.svg);
     background-size: cover;
     width: 100%;
@@ -59,15 +57,7 @@ main > section {
     border: 1px solid #000;
 }
 
-/* main > section > img {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-    padding: ;
-} */
-
-main > section > h1 {
+main > .banner-principal > h1 {
     font-size: 48px;
     color: #fff;
     z-index: 1;
@@ -89,6 +79,7 @@ main > article {
 }
 
 .video-container {
+    position: relative;
     width: 630px;
     height: 560px; 
     overflow: hidden; /* Garante que o vídeo não ultrapasse o contêiner */
@@ -98,6 +89,96 @@ main > article {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Redimensiona o vídeo para preencher o contêiner */
+    z-index: -1;
 }
+
+.video-mask {
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+
+.video-mask > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.video-mask > div > h4 {
+    font-size: 32px;
+}
+
+.video-container > .video-mask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.video-mask > p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button {
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: 14px 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    transition: 0.4s linear;
+    color: #000;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    height: auto;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.banner > div {
+    position: absolute;
+    text-align: right;
+    gap: 10px;
+
+    color: #fff;
+    bottom: 8px;
+    right: 16px;
+
+    padding: 60px;
+
+}
+
+.banner > div > h4 {
+    font-size: 60px;
+}
+
+.banner > div > p {
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.btn-banner {
+    margin-top: 45px;
+}
+
+
 
 
