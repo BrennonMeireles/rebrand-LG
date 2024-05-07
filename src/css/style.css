@@ -30,6 +30,7 @@ nav ul li {
     position: relative;
     text-decoration: none;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 nav ul li::after {
