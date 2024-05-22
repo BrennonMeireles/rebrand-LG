@@ -15,8 +15,8 @@ header>nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
-  padding: 10px 100px;
+  gap: 3.125rem;
+  padding: .625rem 6.25rem;
 }
 
 nav>ul {
@@ -29,10 +29,10 @@ nav>ul {
 
 nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   position: relative;
   text-decoration: none;
-  padding-bottom: 5px;
+  padding-bottom: .3125rem;
   cursor: pointer;
   transition: 0.3s ease, left 0.3s ease;
 }
@@ -43,7 +43,7 @@ nav ul li::after {
   left: 50%;
   bottom: 0;
   width: 0;
-  height: 2px;
+  height: .125rem;
   background-color: transparent;
   transition: width 0.3s ease, left 0.3s ease;
 }
@@ -59,29 +59,28 @@ main>.banner-principal {
   background-size: cover;
   width: 100%;
   height: 100vh;
-  border: 1px solid #000;
 }
 
 main>.banner-principal>h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 600;
   color: #fff;
 
   position: absolute;
-  left: 60px;
-  top: 550px;
+  left: 3.75rem;
+  top: 34.375rem;
 }
 
 main>article {
   display: flex;
   justify-content: space-around;
-  padding: 60px;
+  padding: 3.75rem;
 }
 
 .video-container {
   position: relative;
-  width: 630px;
-  height: 560px;
+  width: 39.375rem;
+  height: 35rem;
   overflow: hidden;
   /* Garante que o vídeo não ultrapasse o contêiner */
 }
@@ -101,41 +100,41 @@ main>article {
   background: rgba(0, 0, 0, 0.35);
   color: #fff;
   width: 100%;
-  height: 150px;
-  padding: 20px;
+  height: 9.375rem;
+  padding: 1.25rem;
 }
 
 .video-mask>div {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: .625rem;
   justify-content: center;
 }
 
 .video-mask>div>h4 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .video-container>.video-mask {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: .625rem;
 }
 
 .video-mask>div>p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 200;
 
 }
 
 button {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   background: none;
-  border-radius: 30px;
-  border: 2px solid #fff;
-  padding: 14px 22px;
+  border-radius: 1.875rem;
+  border: .125rem solid #fff;
+  padding: .875rem 1.375rem;
   cursor: pointer;
   transition: 0.4s linear;
 }
@@ -158,27 +157,27 @@ button:hover {
 .banner>div {
   position: absolute;
   text-align: right;
-  gap: 10px;
+  gap: .625rem;
 
   color: #fff;
-  bottom: 8px;
-  right: 16px;
+  bottom: .5rem;
+  right: 1rem;
 
-  padding: 60px;
+  padding: 3.75rem;
 }
 
 .banner>div>h4 {
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 
 .banner>div>p {
-  font-size: 24px;
-  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-top: .625rem;
   font-weight: 200;
 }
 
 .btn-banner {
-  margin-top: 45px;
+  margin-top: 2.8125rem;
 }
 
 .icons-navigator {
@@ -189,17 +188,17 @@ button:hover {
 }
 
 .icons-navigator>div {
-  border-radius: 10px;
-  border: 1px solid #fff;
-  padding: 20px;
+  border-radius: .625rem;
+  border: .0625rem solid #fff;
+  padding: 1.25rem;
 }
 
 .icons-navigator>div:hover {
-  border: 1px solid #8b8b8b;
+  border: .0625rem solid #8b8b8b;
 }
 
 .help-section {
-  padding: 0rem 9.375rem 6.25rem 9.375rem;
+  padding: 0px 150px 100px 150px;
 }
 
 .help-section>div {
@@ -208,27 +207,27 @@ button:hover {
 }
 
 .help-section>h3 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .help-section>p {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 60px;
+  font-size: 1.25rem;
+  margin-top: .625rem;
+  margin-bottom: 3.75rem;
 }
 
 .help-section>article {
   display: flex;
-  gap: 112px;
+  gap: 7rem;
   justify-content: center;
 }
 
 .help-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 32px;
+  border: .0625rem solid #000;
+  border-radius: 1.25rem;
+  padding: 2rem;
   transition: 0.2s ease;
 }
 
@@ -238,8 +237,8 @@ button:hover {
 
 .help-card>div {
   display: flex;
-  gap: 32px;
-  padding-bottom: 8px;
+  gap: 2rem;
+  padding-bottom: .5rem;
   align-items: start;
   justify-content: center;
 }
@@ -247,29 +246,29 @@ button:hover {
 div>.p-help {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: .625rem;
   padding-top: 0;
 }
 
 .help-card>div>h4 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
 }
 
 .help-card>div>p {
-  font-size: 15px;
+  font-size: .9375rem;
   font-weight: 300;
 }
 
 .help-card img {
-  width: 64px;
+  width: 4rem;
 }
 
 footer {
   display: flex;
-  gap: 1.25rem;
+  gap: 20px;
   background-color: #f0f0f0;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 footer>.list-logo {
@@ -287,5 +286,178 @@ footer>ul {
 
 footer>ul>li {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+/* telas menores */
+
+@media screen and (max-width: 37.5rem) {
+  header>nav {
+    gap: .625rem;
+    padding: .625rem;
+  }
+
+  nav ul li {
+    padding-bottom: .3125rem;
+    font-size: 6px;
+    text-align: center;
+  }
+
+  nav>ul>img {
+    width: 3rem;
+  }
+
+  main>.banner-principal {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* border: 1px solid; */
+
+    width: 100%;
+    height: 32vh;
+  }
+
+  main>.banner-principal>h1 {
+    font-size: .75rem;
+
+    left: 10px;
+    top: 12rem;
+  }
+
+  main>article {
+    display: flex;
+    justify-content: space-around;
+    padding: .25rem;
+  }
+
+  .video-container {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    overflow: hidden;
+    /* Garante que o vídeo não ultrapasse o contêiner */
+  }
+
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Redimensiona o vídeo para preencher o contêiner */
+    z-index: -1;
+  }
+
+  .video-mask {
+    height: 9.375rem;
+    padding: .625rem;
+  }
+
+  .video-mask>div {
+    gap: .625rem;
+  }
+
+  .video-mask>div>h4 {
+    font-size: .625rem;
+  }
+
+  .video-container>.video-mask {
+    height: 3.75rem;
+    gap: 0rem;
+  }
+
+  .video-mask>div>p {
+    font-size: .5rem;
+  }
+
+  button {
+    font-size: .5rem;
+    border-radius: .375rem;
+    border: .0625rem solid #fff;
+    padding: .0625rem .3125rem;
+  }
+
+  .banner img {
+    width: 100vw;
+  }
+
+  .banner>div {
+    gap: .625rem;
+    bottom: .625rem;
+    right: 1rem;
+
+    padding: .625rem;
+  }
+
+  .banner>div>h4 {
+    font-size: .875rem;
+  }
+
+  .banner>div>p {
+    font-size: .625rem;
+    margin-top: .625rem;
+  }
+
+  .btn-banner {
+    margin-top: .625rem;
+    font-size: .5rem;
+    padding: .1875rem .625rem;
+  }
+
+  .icons-navigator>div {
+    padding: 10px;
+    font-size: 8px;
+  }
+
+  .icons-navigator > div> img {
+    width: 30px;
+  }
+
+  .help-section {
+    padding: 10px;
+  }
+
+  .help-section>div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .help-section>h3 {
+    font-size: 20px;
+  }
+
+  .help-section>p {
+    font-size: 10px;
+    margin-top: .625rem;
+    margin-bottom: 3.75rem;
+  }
+
+  .help-section>article {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .help-card {
+    padding: 15px;
+  }
+
+  .help-card>div {
+    gap: 1rem;
+  }
+
+  div>.p-help {
+    gap: 10px;
+    padding-top: 0;
+  }
+
+  .help-card>div>h4 {
+    font-size: 16px;
+  }
+
+  .help-card>div>p {
+    font-size: 10px;
+  }
+
+  .help-card img {
+    width: 2rem;
+  }
 }
