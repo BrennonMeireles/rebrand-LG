@@ -7,11 +7,11 @@
   font-family: "Inter", sans-serif;
 }
 
-#remove-pc{
+#remove-pc {
   display: none;
 }
 
-.menu-hamburguer{
+.menu-hamburguer {
   display: none;
 }
 
@@ -19,7 +19,7 @@ body {
   background-color: #fff;
 }
 
-header>nav {
+header > nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +27,7 @@ header>nav {
   padding: .625rem 6.25rem;
 }
 
-nav>ul {
+nav > ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -62,14 +62,14 @@ nav ul li:hover::after {
   left: 0;
 }
 
-main>.banner-principal {
+main > .banner-principal {
   background-image: url(../img/anuncio-principal.svg);
   background-size: cover;
   width: 100%;
   height: 100vh;
 }
 
-main>.banner-principal>h1 {
+main > .banner-principal > h1 {
   font-size: 3rem;
   font-weight: 600;
   color: #fff;
@@ -79,7 +79,7 @@ main>.banner-principal>h1 {
   top: 34.375rem;
 }
 
-main>article {
+main > article {
   display: flex;
   justify-content: space-around;
   padding: 3.75rem;
@@ -112,28 +112,27 @@ main>article {
   padding: 1.25rem;
 }
 
-.video-mask>div {
+.video-mask > div {
   display: flex;
   flex-direction: column;
   gap: .625rem;
   justify-content: center;
 }
 
-.video-mask>div>h4 {
+.video-mask > div > h4 {
   font-size: 2rem;
 }
 
-.video-container>.video-mask {
+.video-container > .video-mask {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: .625rem;
 }
 
-.video-mask>div>p {
+.video-mask > div > p {
   font-size: 1.25rem;
   font-weight: 200;
-
 }
 
 button {
@@ -162,7 +161,7 @@ button:hover {
   width: 100vw;
 }
 
-.banner>div {
+.banner > div {
   position: absolute;
   text-align: right;
   gap: .625rem;
@@ -174,11 +173,11 @@ button:hover {
   padding: 3.75rem;
 }
 
-.banner>div>h4 {
+.banner > div > h4 {
   font-size: 3.75rem;
 }
 
-.banner>div>p {
+.banner > div > p {
   font-size: 1.5rem;
   margin-top: .625rem;
   font-weight: 200;
@@ -195,13 +194,13 @@ button:hover {
   cursor: pointer;
 }
 
-.icons-navigator>div {
+.icons-navigator > div {
   border-radius: .625rem;
   border: .0625rem solid #fff;
   padding: 1.25rem;
 }
 
-.icons-navigator>div:hover {
+.icons-navigator > div:hover {
   border: .0625rem solid #8b8b8b;
 }
 
@@ -209,22 +208,22 @@ button:hover {
   padding: 0rem 9.375rem 6.25rem 9.375rem;
 }
 
-.help-section>div {
+.help-section > div {
   display: flex;
   flex-direction: row;
 }
 
-.help-section>h3 {
+.help-section > h3 {
   font-size: 3.125rem;
 }
 
-.help-section>p {
+.help-section > p {
   font-size: 1.25rem;
   margin-top: .625rem;
   margin-bottom: 3.75rem;
 }
 
-.help-section>article {
+.help-section > article {
   display: flex;
   gap: 7rem;
   justify-content: center;
@@ -243,7 +242,7 @@ button:hover {
   transform: scale(1.01);
 }
 
-.help-card>div {
+.help-card > div {
   display: flex;
   gap: 2rem;
   padding-bottom: .5rem;
@@ -251,19 +250,19 @@ button:hover {
   justify-content: center;
 }
 
-div>.p-help {
+div > .p-help {
   display: flex;
   flex-direction: column;
   gap: .625rem;
   padding-top: 0;
 }
 
-.help-card>div>h4 {
+.help-card > div > h4 {
   font-size: 2rem;
   font-weight: 300;
 }
 
-.help-card>div>p {
+.help-card > div > p {
   font-size: .9375rem;
   font-weight: 300;
 }
@@ -279,20 +278,20 @@ footer {
   padding: 1.875rem;
 }
 
-footer>.list-logo {
+footer > .list-logo {
   width: 13vw;
   display: flex;
   flex-direction: column;
 }
 
-footer>ul {
+footer > ul {
   width: 100vw;
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-footer>ul>li {
+footer > ul > li {
   font-weight: 500;
   font-size: 1.125rem;
 }
@@ -300,21 +299,20 @@ footer>ul>li {
 /* telas menores */
 
 @media screen and (max-width: 37.5rem) {
-
-  #remove-pc{
+  #remove-pc {
     display: block;
   }
 
-  #remove-mobile{
+  #remove-mobile {
     display: none;
   }
 
-  .menu-hamburguer{
+  .menu-hamburguer {
     display: block;
     width: 1.25rem;
     height: auto;
   }
-  header>nav {
+  header > nav {
     gap: 0rem;
     padding: 1rem;
   }
@@ -326,37 +324,42 @@ footer>ul>li {
     text-align: center;
   }
 
-  nav>ul>img {
+  nav > ul > img {
     width: 1.5rem;
   }
 
-  main>.banner-principal {
-    background-size: contain;
+  main > .banner-principal {
+    background-size: cover;
+    background-position: 10%;
     background-repeat: no-repeat;
 
-    /* border: 1px solid; */
-
     width: 100%;
-    height: 32vh;
+    height: 60vh;
   }
 
-  main>.banner-principal>h1 {
+
+  main > .banner-principal > h1 {
     font-size: .75rem;
 
     left: .625rem;
     top: 12rem;
   }
 
-  main>article {
+  main > article, .art-video {
     display: flex;
-    justify-content: space-around;
-    padding: .25rem;
+    justify-content: space-between;
+    padding: .3125rem;
+    gap: .3125rem;
+  }
+
+  main > .art-video{
+    flex-direction: column;
   }
 
   .video-container {
     position: relative;
-    width: 50vw;
-    height: 50vw;
+    width: 100%;
+    height: 30vh;
     overflow: hidden;
     /* Garante que o vídeo não ultrapasse o contêiner */
   }
@@ -374,20 +377,20 @@ footer>ul>li {
     padding: .625rem;
   }
 
-  .video-mask>div {
+  .video-mask > div {
     gap: .625rem;
   }
 
-  .video-mask>div>h4 {
+  .video-mask > div > h4 {
     font-size: .625rem;
   }
 
-  .video-container>.video-mask {
+  .video-container > .video-mask {
     height: 3.75rem;
     gap: 0rem;
   }
 
-  .video-mask>div>p {
+  .video-mask > div > p {
     font-size: .5rem;
   }
 
@@ -402,7 +405,7 @@ footer>ul>li {
     width: 100vw;
   }
 
-  .banner>div {
+  .banner > div {
     gap: .625rem;
     bottom: .625rem;
     right: 1rem;
@@ -410,11 +413,11 @@ footer>ul>li {
     padding: .625rem;
   }
 
-  .banner>div>h4 {
+  .banner > div > h4 {
     font-size: .875rem;
   }
 
-  .banner>div>p {
+  .banner > div > p {
     font-size: .625rem;
     margin-top: .625rem;
   }
@@ -425,12 +428,12 @@ footer>ul>li {
     padding: .1875rem .625rem;
   }
 
-  .icons-navigator>div {
+  .icons-navigator > div {
     padding: .625rem;
     font-size: .5rem;
   }
 
-  .icons-navigator > div> img {
+  .icons-navigator > div > img {
     width: 1.875rem;
   }
 
@@ -438,22 +441,22 @@ footer>ul>li {
     padding: .625rem;
   }
 
-  .help-section>div {
+  .help-section > div {
     display: flex;
     flex-direction: row;
   }
 
-  .help-section>h3 {
+  .help-section > h3 {
     font-size: 1.25rem;
   }
 
-  .help-section>p {
+  .help-section > p {
     font-size: 10px;
     margin-top: .625rem;
     margin-bottom: 1.75rem;
   }
 
-  .help-section>article {
+  .help-section > article {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -463,20 +466,20 @@ footer>ul>li {
     padding: .9375rem;
   }
 
-  .help-card>div {
+  .help-card > div {
     gap: 1rem;
   }
 
-  div>.p-help {
+  div > .p-help {
     gap: .625rem;
     padding-top: 0;
   }
 
-  .help-card>div>h4 {
+  .help-card > div > h4 {
     font-size: 1rem;
   }
 
-  .help-card>div>p {
+  .help-card > div > p {
     font-size: .625rem;
   }
 
@@ -488,12 +491,12 @@ footer>ul>li {
     gap: 1rem;
     padding: 1rem;
   }
-  
-  footer>.list-logo {
+
+  footer > .list-logo {
     width: 1vw;
   }
-  
-  footer>ul>li {
+
+  footer > ul > li {
     font-size: .625rem;
   }
 
